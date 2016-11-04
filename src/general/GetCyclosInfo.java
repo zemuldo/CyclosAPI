@@ -22,7 +22,7 @@ public class GetCyclosInfo {
 	// HTTP GET request
 	private void sendGet() throws Exception {
 
-		String url = "http://192.168.30.105:8080/rest/general";
+		String url = "http://192.168.30.234:8080/rest/general";
 
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
